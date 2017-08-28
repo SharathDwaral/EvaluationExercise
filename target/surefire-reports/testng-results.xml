@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="891" started-at="2017-08-28T11:30:59Z" finished-at="2017-08-28T11:31:00Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="891" started-at="2017-08-28T11:30:59Z" finished-at="2017-08-28T11:31:00Z">
+      <class name="TestCustomerRepositoryImpl">
+        <test-method status="PASS" signature="testFindCustomerById()[pri:0, instance:TestCustomerRepositoryImpl@9f70c54]" name="testFindCustomerById" duration-ms="836" started-at="2017-08-28T04:30:59Z" finished-at="2017-08-28T04:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCustomerById -->
+        <test-method status="PASS" signature="testGetMatchingNames()[pri:0, instance:TestCustomerRepositoryImpl@9f70c54]" name="testGetMatchingNames" duration-ms="41" started-at="2017-08-28T04:31:00Z" finished-at="2017-08-28T04:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMatchingNames -->
+      </class> <!-- TestCustomerRepositoryImpl -->
+      <class name="TestExceptionClasses">
+        <test-method status="PASS" signature="testCustomerNotFoundException()[pri:0, instance:TestExceptionClasses@7946e1f4]" name="testCustomerNotFoundException" duration-ms="0" started-at="2017-08-28T04:31:00Z" finished-at="2017-08-28T04:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerNotFoundException -->
+        <test-method status="PASS" signature="testEmailNotException()[pri:0, instance:TestExceptionClasses@7946e1f4]" name="testEmailNotException" duration-ms="0" started-at="2017-08-28T04:31:00Z" finished-at="2017-08-28T04:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailNotException -->
+        <test-method status="PASS" signature="testInvalidHeaderException()[pri:0, instance:TestExceptionClasses@7946e1f4]" name="testInvalidHeaderException" duration-ms="1" started-at="2017-08-28T04:31:00Z" finished-at="2017-08-28T04:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidHeaderException -->
+        <test-method status="PASS" signature="testNoNameFoundException()[pri:0, instance:TestExceptionClasses@7946e1f4]" name="testNoNameFoundException" duration-ms="0" started-at="2017-08-28T04:31:00Z" finished-at="2017-08-28T04:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoNameFoundException -->
+        <test-method status="PASS" signature="testMerchantNotFoundException()[pri:0, instance:TestExceptionClasses@7946e1f4]" name="testMerchantNotFoundException" duration-ms="0" started-at="2017-08-28T04:31:00Z" finished-at="2017-08-28T04:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMerchantNotFoundException -->
+        <test-method status="PASS" signature="testPayloadValidationdException()[pri:0, instance:TestExceptionClasses@7946e1f4]" name="testPayloadValidationdException" duration-ms="0" started-at="2017-08-28T04:31:00Z" finished-at="2017-08-28T04:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayloadValidationdException -->
+      </class> <!-- TestExceptionClasses -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
